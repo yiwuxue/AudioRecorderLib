@@ -89,4 +89,7 @@ void static readData(int8_t *data, uint32_t size, void *ctx)
 {
   //TODO
 }
-``
+```
+
+# 接入工程示例
+请参考 [AndroidAudioRecordDemo](https://github.com/net168/AndroidAudioRecordDemo)
