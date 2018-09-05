@@ -85,7 +85,7 @@ capture->releaseRecording();
 delete capture;
 capture = nullptr;
 //PCM数据回调
-void AudioInstance::read(int8_t *data, uint32_t size)
+void static readData(int8_t *data, uint32_t size, void *ctx)
 {
   //TODO
 }
